@@ -1,0 +1,475 @@
+.home-headline{
+background: -moz-linear-gradient(180deg, rgba(75,86,108,1) 0%, rgba(109,121,147,1) 100%);
+background: -webkit-linear-gradient(180deg, rgba(75,86,108,1) 0%, rgba(109,121,147,1) 100%);
+background: linear-gradient(180deg, rgba(75,86,108,1) 0%, rgba(109,121,147,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4b566c",endColorstr="#6d7993",GradientType=1);
+    padding: 35px 0
+}
+
+
+.home-headline h1{
+    color: #fff;
+    text-shadow: 2px 2px 3px rgba(0,0,0,.5);
+    margin: 0;
+    letter-spacing: .6px
+}
+
+
+.home-location{
+    color: #fff;
+    font-size: 2rem;
+    margin: 2rem 0 0;
+}
+
+.home-location a{
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.7);
+}
+
+.home-city{
+    padding-right: 30px;
+    background: url(../../images/right-arrow.png) right 3px center no-repeat;
+}
+
+
+.main-slider{
+    margin: 30px 0
+}
+
+
+.home-features .pb-features{
+    width: 50%;
+}
+
+
+.home-features .pb-features .pb-list{
+    background-size: 80px auto;
+    margin:0 0 3px;
+    font-size: 1.9rem;
+    padding-top: 73px;
+    background-position: bottom 35px center;
+}
+
+.home-features{
+background: -moz-linear-gradient(140deg, rgba(244,244,244,1) 50%, rgba(255,255,255,1) 65%);
+background: -webkit-linear-gradient(140deg, rgba(244,244,244,1) 50%, rgba(255,255,255,1) 65%);
+background: linear-gradient(140deg, rgba(244,244,244,1) 50%, rgba(255,255,255,1) 65%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f4f4f4",endColorstr="#ffffff",GradientType=1);
+}
+
+
+
+/* Style for tab in detail page */
+.home-tab{
+    color: #333;
+    min-height: 500px;
+        margin: 25px 0 0;
+}
+
+.home-tab .headline{
+    font-weight: 200;
+    letter-spacing: 1px
+}
+
+.home-tab p{
+    color:#555;
+    font-size: 1.8rem;
+    letter-spacing: .5px
+}
+
+.home-tab .tab-content{
+    padding: 1rem
+}
+
+
+
+
+.home-tab .tab-header div{
+    font-size:2.5rem;
+    padding: 0 3rem 0 55px;
+    border-bottom: 2px solid #ccc;
+    display: inline-block;
+    margin: 0 9px;
+    line-height: 5rem;
+    position: relative;
+    opacity: .6;
+    cursor: pointer
+}
+
+.home-tab .tab-header .tab-header-active{
+    opacity: 1;
+    font-weight: 500
+}
+
+.home-tab .tab-header-active:after{
+    content: '';
+    display: block;
+    left:0;
+    right: 0;
+    height: 5px;
+    bottom: -3px;
+    background: #6E7A91;
+    position: absolute
+}
+
+.home-tab .tab-header div{
+    position: relative
+}
+
+
+.home-tab .tab-header div:before{
+    content:'';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url('../../images/tab_icon.png') no-repeat ;
+    background-size:auto 30px;
+    position: absolute;
+    left: 14px;
+    top: 9px
+}
+
+
+.home-tab .tab-header .tab-location:before{
+    background-position: -27px;
+}
+
+.home-tab .tab-header .tab-brochure:before{
+    background-position: -60px;
+}
+
+.home-tab .tab-header .tab-contact:before{
+    background-position: -91px;
+}
+
+
+.advantages-btn{
+    border: 1px solid #999;
+    font-size: 2rem;
+    padding: 4px 15px;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 20px;
+    color: #555;
+    cursor: pointer
+}
+
+.advantages-btn:hover{
+    background: #666;
+    color: #eee;
+}
+
+
+
+.key-features{
+    margin-top: 40px;
+}
+
+.key-features span{
+        line-height: 30px;
+    display: inline-block;
+    padding-left: 37px;
+    background: url(../../images/check.png) no-repeat left center;
+    margin: 5px 20px 7px 0;
+    font-size: 2.2rem;
+    width: 33%;
+    margin: 10px 0;
+}
+
+
+
+.embed-brochure iframe{
+    width: 100%;
+    max-width: 700px;
+    margin: 10px auto;
+    height: 500px;
+    box-shadow: 0px 25px 60px rgba(0,0,0,.4)
+}
+
+
+/* Similar homes */
+.similar-homes{
+    margin-top: 10rem;
+}
+
+
+.similar-homes .property-box{
+    margin-bottom: 24px;
+}
+
+
+.property-price{
+    margin: 30px 0;
+    background: #F5F5F5;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 6px rgba(0,0,0,.1);
+    padding: 20px
+}
+
+
+.pp-headline{
+    color: #6E7A91;
+    font-size:1.8rem;
+    font-weight: 600;
+}
+
+.pp-price{
+    font-size: 4rem;
+    color: #6E7A91;
+    line-height:4rem;
+    letter-spacing: 1px;
+    display: block
+}
+
+
+.change-currency{
+
+    margin-top: 15px;
+}
+
+.cc-text{
+    color: #666;
+    display: inline-block;
+    margin-right: 5px;
+
+}
+
+.cc-box{
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    font-size: 18px;
+    background: #fff;
+    line-height: 26px;
+    border: 1px solid #666;
+    text-align: center;
+    margin-left: 3px;
+    font-weight: bold;
+    color: #444;
+    cursor: pointer
+}
+
+.cc-selected{
+    background: #666;
+    color: #fff;
+}
+
+.pb-buttons-location{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pb-buttons div{
+    font-size: 1.7rem;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+    padding: 30px 10px 0 10px;
+    background-size: 24px;
+    margin: 29px 0 0 10px;
+}
+
+
+.save-button{
+    background: url(../../images/save1.png) no-repeat top center;
+}
+
+.share-button{
+    background: url(../../images/share.png) no-repeat top center;
+}
+
+.save-button:hover,  .saved-already{
+    background-image: url(../../images/save2.png)
+}
+
+.share-button:hover{
+    background-image: url(../../images/share2.png)
+}
+
+.detail-sidebar{
+    margin: 0 -25px 0 0;
+    position: absolute;
+
+}
+
+
+.contact-person img{
+    max-width: 30%;
+    display: inline-block;
+    margin-right: 4%;
+}
+
+
+.contact-person >div{
+    max-width: 66%;
+}
+
+.cp-label{
+    text-transform: uppercase;
+    color: #999;
+}
+
+
+
+.cp-name{
+    color: #444;
+    font-weight: 600;
+    font-size: 2rem;
+    display: block
+}
+
+.contact-area{
+    border: 1px solid #eee;
+    padding: 10px;
+        box-shadow: 0 2px 6px rgba(0,0,0,.1);
+}
+
+
+
+.send-message{
+    background: url(../../images/whatsapp.png) no-repeat;
+    line-height: 40px;
+    padding-left: 42px;
+    font-size: 17px;
+    display: block;
+    color: #555;
+    margin: 10px 0 0;
+    background-position: left 2px top 3px;
+}
+
+
+
+.call-us{
+        border-bottom: 1px solid #eee;
+    padding: 20px 0 0;
+    display: block;
+}
+
+
+.call-us a{
+    font-size: 22px;
+    letter-spacing: 1px;
+    padding: 5px 0 5px 40px;
+    display: block;
+    background: url(../../images/tel.png) no-repeat left 6px top 6px;
+    color: #555;
+}
+
+
+
+.fixed-form .form-container{
+    margin: 40px 0 0;
+}
+
+
+.expanded-brochure{
+    background: #F3EBDA;
+    position: fixed;
+    left:0;
+    right: 0;
+    top:0;
+    bottom:0;
+    z-index: 9999;
+    display: none
+}
+
+.show-expanded-brochure{
+    display: block
+}
+
+
+.expanded-iframe iframe{
+        width: 100%;
+    max-width: 900px;
+    height: 700px;
+    margin: 70px auto 0;
+    display: block;
+}
+
+.tab-contact-form{
+    background: #eee;
+    margin: 25px auto;
+    max-width: 500px;
+    padding: 10px 25px 25px;
+    border-radius: 3px;
+    background: rgba(235,218,174,0.4);
+}
+
+#home-slider {
+    width: 100%;
+    height:670px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+.royalSlider > .rsImg {
+    visibility:hidden;
+}
+.royalSlider img {
+}
+.rsWebkit3d .rsSlide {
+    -webkit-transform: none;
+}
+.rsWebkit3d img {
+    -webkit-transform: translateZ(0);
+}
+
+.form-selection .label-full{
+        width: 100%;
+    text-transform: uppercase;
+    background: rgba(255,255,255,.3);
+}
+
+
+
+@media screen and (max-width:1300px){
+    #home-slider {
+        height:600px;
+    }
+}
+
+@media screen and (max-width:1300px){
+    #home-slider {
+        height:565px;
+    }
+
+    .rsDefault .rsThumb{
+        width: 115px;
+        height: 70px;
+        margin-right: 8px!important;
+    }
+
+    .rsDefault .rsThumbsHor{
+        height: 95px
+    }
+}
+
+@media screen and (max-width:1030px){
+    #home-slider {
+        height:520px;
+    }
+
+    .rsDefault .rsThumb{
+        width: 99px;
+        height: 60px;
+        margin-right: 8px!important;
+    }
+
+    .rsDefault .rsThumbsHor{
+        height: 82px
+    }
+}
+
+
+@media screen and (max-width:992px){
+    .detail-sidebar {
+        position: relative;
+    }
+
+}
+
+
+
+
+
+

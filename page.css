@@ -1,0 +1,836 @@
+/* Sell Page */
+
+.page-intro {
+    background: rgba(194, 170, 125, .4);
+    padding: 2rem 0;
+    color: #585858;
+    max-height: 310px;
+    margin-bottom: 150px;
+}
+
+.page-intro h1 {
+    font-weight: 300;
+    font-size: 6rem;
+    letter-spacing: 2px
+}
+
+.intro-content {
+    max-width: 45%;
+    padding: 0 3% 0 0
+}
+
+.intro-content p {
+    font-size: 2.4rem;
+}
+
+.intro-img {
+    width: 50%;
+    padding-top: 3rem;
+}
+
+.intro-img img {
+    box-shadow: 0 0 55px rgba(0, 0, 0, .4)
+}
+
+.page-content p {
+    font-size: 2rem;
+    color: #585858;
+}
+
+.grey-form {
+    font-size: 2.2rem;
+    padding: 3.7rem;
+    background: #F9F9F9;
+    border: 1px solid #ddd;
+    max-width: 400px;
+    margin: auto
+}
+
+.grey-form p {
+    line-height: 3rem;
+    font-size: 2.7rem;
+    color: #333;
+    margin-bottom: 2rem;
+    letter-spacing: 1px;
+}
+
+.grey-form label {
+    margin: 2rem 0 .5rem;
+    display: block;
+    font-size: 2rem
+}
+
+.grey-form input {
+    border-radius: 0
+}
+
+.submit-btn {
+    background: #6E7A91;
+    color: #fff;
+    font-weight: 600;
+    border: 0;
+    line-height: 4.5rem;
+    padding: 0 1.5rem;
+    margin: 1rem 0;
+}
+
+.page-content {
+    padding: 7rem 0
+}
+
+.letting-experts {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+    max-width: 360px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .3);
+    margin-top: -38%;
+}
+
+.letting-experts h2 {
+    font-size: 3rem;
+    margin: 0 0 2rem;
+    font-family: 'Taviraj', serif
+}
+
+.expert-border {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.expert-list img {
+    width: 38%
+}
+
+.expert-info {
+    width: 62%;
+    padding-left: 4%;
+    font-size: 1.7rem;
+}
+
+.expert-name {
+    font-family: 'Taviraj', serif;
+    font-size: 2rem;
+    color: #000;
+    font-weight: bold;
+    line-height: 2rem
+}
+
+.expert-info a {
+    text-transform: uppercase;
+    color: #C0403B;
+    transition: .5s all
+}
+
+.expert-title {
+    font-family: 'Georgia', Arial
+}
+
+.expert-info a:hover {
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: 1s all
+}
+
+a.expert-phone {
+    color: #222;
+    font-weight: bold;
+    display: block;
+    margin-top: 7px;
+}
+
+.letting .intro-content {
+    max-width: 63%;
+    padding: 0;
+}
+
+.letting {
+    margin-bottom: 0;
+}
+
+.big-p {
+    font-size: 2rem;
+    color: #333;
+}
+
+.letting-intro {
+    padding-bottom: 5rem;
+    border-bottom: 1px solid #ddd
+}
+
+.letting-intro p {
+    margin-top: 4rem;
+}
+
+.longtail-link {
+    color: #B19970;
+    font-weight: bold;
+    font-size: 2.2rem;
+    display: block
+}
+
+.or {
+    color: #666;
+    line-height: 4rem;
+    font-size: 2rem
+}
+
+.letting-text {
+    margin-top: 3rem;
+}
+
+.letting-container {
+    margin-top: 5rem;
+}
+
+
+/* About Us */
+
+.intro-bg {
+    padding: 20rem 0;
+    position: relative;
+    color: #fff;
+}
+
+.intro-bg:before {
+    content: '';
+    display: block;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .6);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.about-us-bg {
+    background: url(../../images/temp/about_us.png);
+    background-size: cover;
+}
+
+.intro-bg p {
+    position: relative;
+    font-size: 3rem;
+    font-weight: 200;
+    letter-spacing: 1px
+}
+
+.intro-bg .serif {
+    font-size: 3.5rem
+}
+
+.about-us {
+    padding: 5rem 0;
+}
+
+.about-us p {
+    font-size: 1.8rem;
+    color: #444;
+    margin-bottom: 3rem;
+    max-width: 505px;
+}
+
+.section-seperator {
+    margin-bottom: 10rem;
+}
+
+
+.contact-page .page-intro {
+    margin: 0
+}
+
+.contact-form {
+    padding: 5rem 0;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, .1);
+    font-size: 2rem
+}
+
+.contact-form .container {
+    max-width: 888px
+}
+
+.contact-form .form-group {
+    margin: 3rem 0;
+}
+
+.contact-form label {
+    line-height: 3rem;
+    font-size: 2rem
+}
+
+.contact-form .form-control {
+    border-radius: 0;
+    height: 42px
+}
+
+.contact-form textarea.form-control {
+    height: 145px
+}
+
+.contact-info,
+.team-list {
+    padding: 4rem 0;
+}
+
+.contact-info h2 {
+    font-weight: 200;
+    font-size: 5rem
+}
+
+.contact-box {
+    padding: 2rem 1rem;
+    font-size: 2rem;
+}
+
+.contact-box span {
+    font-weight: bold;
+    display: block;
+    margin: 3rem 0 1rem;
+}
+
+.contact-box a,
+.team-member a {
+    color: #333;
+    display: block;
+    letter-spacing: 1px;
+}
+
+a.gmaps {
+    color: #555;
+    display: inline-block;
+    background: url('https://image.flaticon.com/icons/svg/281/281767.svg') left center no-repeat;
+    padding-left: 40px;
+    background-size: 30px;
+    line-height: 32px;
+}
+
+.gradient-intro {
+    background: rgb(230, 214, 164);
+    background: -moz-linear-gradient(90deg, rgba(230, 214, 164, 0.8) 0%, rgba(255, 255, 255, 1) 60%);
+    background: -webkit-linear-gradient(90deg, rgba(230, 214, 164, 0.8) 0%, rgba(255, 255, 255, 1) 60%);
+    background: linear-gradient(90deg, rgba(230, 214, 164, 0.8) 0%, rgba(255, 255, 255, 1) 60%);
+    position: relative;
+    padding: 4rem 0 5rem;
+}
+
+.gradient-intro:after {
+    content: '';
+    display: block;
+    background: url(../../images/amblem.png) no-repeat center;
+    background-size: 100%;
+    width: 280px;
+    height: 280px;
+    position: absolute;
+    right: 9%;
+    top: 3%
+}
+
+.gradient-intro h1 {
+    letter-spacing: 2px;
+    font-size: 4rem;
+}
+
+.gradient-intro p {
+    font-size: 2rem;
+}
+
+.team-member .member-link {
+    display: block;
+    max-width: 370px;
+}
+
+.member-name {
+    margin: 2rem 0 1rem;
+    display: block;
+    font-weight: bold;
+    font-size: 2.2rem
+}
+
+.team-member {
+    max-width: 340px;
+    margin: 25px auto;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+.member-name:after {
+    display: block;
+    content: '';
+    width: 55px;
+    height: 1px;
+    background: #B8AD9D;
+    margin: 1.2rem auto 2rem
+}
+
+.member-title {
+    margin-bottom: 25px;
+    display: inline-block;
+    padding: 5px 15px;
+    background: rgb(230, 214, 164, .5);
+}
+
+
+
+.member-phone a {
+    text-align: left;
+    background: url(https://image.flaticon.com/icons/svg/25/25453.svg) no-repeat left 14px center;
+    background-size: 22px;
+    padding: 9px 9px 9px 45px;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.team-member a:hover {
+    background-color: #eee;
+}
+
+.team-member img{
+        height: 225px;
+    width: auto;
+}
+
+.member-language {
+    text-align: left;
+    background: url(https://image.flaticon.com/icons/svg/61/61027.svg) no-repeat left 12px center;
+    background-size: 24px;
+    padding: 9px 0 9px 45px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+}
+
+.member-language span {
+    display: block;
+    font-weight: 600;
+    color: #333;
+    font-size: 14px;
+}
+
+.member-message {
+    display: block;
+    background: url(https://image.flaticon.com/icons/svg/561/561127.svg) left 14px center no-repeat;
+    background-size: 26px;
+    text-align: left;
+    float: right;
+    width: 52px;
+    height: 43px;
+    border-left: 1px solid #ddd;
+    background-color: #eee;
+}
+
+/* Explore page */
+
+.explore-hero{
+    position: relative
+}
+
+.explore-hero h1{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 125px;
+    margin: auto;
+    text-align: center;
+    font-size: 75px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 3px 3px 15px #000;
+    font-family: 'ProximaNova-Semibold';
+    letter-spacing: .3px;
+}
+
+.explore-content {
+       background: rgba(252,252,252,.9);
+    padding: 10px 15px;
+    font-size: 17px;
+    line-height: 23px;
+    box-shadow: 0px -10px 30px 10px rgba(0,0,0,.8);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 960px;
+    margin: auto;
+    
+        overflow-y: scroll;
+    max-height: 160px;
+}
+.explore-img {
+    padding: 25px 0;
+}
+
+.explore-img img {
+    max-height: 300px
+}
+
+.explore-place {
+    border-bottom: 1px solid #ddd;
+    background: #fcfcfc;
+}
+
+.contact-member a{
+    color: #333;
+    display: inline-block;
+    padding: 13px 13px 10px 42px;
+    font-size: 17px;
+    margin-right: 10px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.member-bio{
+    font-size: 18px;
+    margin: 25px 0;
+    max-width: 600px;
+}
+
+.team-detail{
+    padding: 60px 0
+}
+
+.call-member{
+        background: url(https://image.flaticon.com/icons/svg/25/25453.svg) no-repeat left 14px center #ECE7DE;
+    background-size: 22px;
+}
+
+.message-member{
+        background: url(https://image.flaticon.com/icons/svg/561/561127.svg) left 14px center no-repeat #ECE7DE;
+    background-size: 22px;
+    padding: 10px 0 10px 48px;
+    text-align: left;
+    letter-spacing: 0!important;
+    font-size: 17px;
+    line-height: 27px;
+}
+
+
+
+/* New Service Pages */
+
+.service-intro{
+            padding: 4% 0;
+            color: #393F50
+        }
+
+        .service-intro h1{
+            font-weight: bold;
+            font-size: 46px;
+            margin: 25px 0 20px;
+            text-transform: uppercase;
+                font-family: 'ProximaNova-Semibold';
+        }
+
+        .service-intro .medium-text{
+            font-size: 25px;
+            line-height: 34px
+        }
+
+        .service-intro-content{
+            margin-right: 70px
+        }
+
+        .service-intro .text-seperator:after{
+            content: '';
+            width: 40%;
+            height: 7px;
+            background: #393F50;
+            display: block;
+            margin: 45px 0;
+            max-width: 250px
+        }
+
+        .service-intro p,.default-boxes p,.two-layout,.sm-text{
+            font-size: 20px;
+            line-height: 30px;
+            margin: 0 0 24px;
+            color: #393F50
+        }
+
+
+        .colored-box{
+
+            padding: 55px 50px 0;
+
+
+        }
+
+        .colored-box p{
+            max-width: 525px
+        }
+
+        .df-image{
+            margin-right: -15px
+        }
+
+        .default-boxes{
+
+        }
+
+        .layout-content{
+            max-width: 475px;
+            margin: 10% auto 0
+        }
+
+        .shadow-img{
+            box-shadow: 0 0 44px rgba(0,0,0,.3)
+        }
+
+        .cta{
+            background: rgb(246,242,232);
+background: linear-gradient(0deg, rgba(246,242,232,1) 0%, rgba(255,255,255,1) 100%);
+            padding: 25px 0;
+            margin-top: 75px;
+        }
+
+        .cta a{
+            font-weight: bold;
+            text-decoration: underline;
+            color: #393F50;
+        }
+
+
+        .cta-p{
+            color: #393F50;
+            font-size: 24px;
+            line-height: 35px;
+            font-style: italic;
+            margin-bottom: 22px;
+        }
+
+        .cta-h2{
+            font-weight: bold;
+            color: #C7AB6E;
+            text-transform: uppercase;
+            font-size: 26px;
+                font-family: 'ProximaNova-Semibold';
+        }
+
+        .rent-cta{
+            background: rgba(246,242,232,.7);
+            padding: 60px 0 50px
+        }
+
+
+        .section-wbg{
+            background: url('http://demo.august-property.com/storage/media/284/buy-bg.png') #ECE6E3 right center no-repeat; min-height: 600px; background-size: 800px;
+        }
+
+        .section-wbg h2{
+            text-transform: uppercase;
+            margin: 100px 0 50px;
+            color: #244c5a;
+                font-family: 'ProximaNova-Semibold';
+        }
+
+        .satisfaction-text{
+                padding: 19px 0 0px 99px;
+    background: url(https://image.flaticon.com/icons/svg/2618/2618053.svg) no-repeat;
+    background-size: auto 100%;
+        }
+
+
+
+        .text-box-wshadow{
+            box-shadow: 0 0 25px rgba(0,0,0,.3);
+            border: 1px solid #717682;
+            margin: 20% 0 0 -66px;
+            background: #fff;
+            padding: 30px;
+            font-size: 24px;
+            color: #393F50;
+        }
+
+
+
+
+        .service-list-box a {
+    display: block;
+    border: 1px solid #E1E1E1;
+    margin: 60px 15px;
+        padding: 35px 20px 35px 160px;
+    background-size: 92px!important;
+    background-position: left 48px center!important;
+    background-repeat: no-repeat!important;
+}
+
+        .sl-title {
+    color: #000;
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+                font-family: 'ProximaNova-Semibold';
+}
+
+
+        .sl-desc {
+    font-size: 16px;
+    color: #333;
+}
+
+
+        .service-list-box a:hover{
+            border-color: #C7AB6E;
+            box-shadow: 0 0 35px rgba(0,0,0,.2);
+            background: #FCFCFC;
+        }
+
+
+
+
+        .relocation-icon{
+            background: url(https://image.flaticon.com/icons/svg/1584/1584799.svg) right 5px center no-repeat;
+    background-size: 100px;
+    padding: 20px 99px 50px 0;
+        }
+
+        .bw-inner{
+            box-shadow: 0 0 20px rgba(0,0,0,.3);
+            padding: 22px
+        }
+
+        ul.mylist li {
+    list-style: none;
+    padding: 0 0 22px 33px;
+    background: url(http://demo.august-property.com/storage/media/288/tick-list.png) no-repeat top left;
+    background-size: 24px;
+    font-size: 20px;
+    color: #393F50;
+
+        }
+
+        ul.mylist {
+            margin: 20px 0;
+            padding: 0;
+        }
+
+
+
+        .benefits{
+background: linear-gradient(180deg, rgba(246,242,232,1) 0%, rgba(255,255,255,1) 100%);
+            padding: 30px 0
+        }
+
+        .benefits h2{
+            color: #C7AB6E;
+            font-weight: bold;    font-family: 'ProximaNova-Semibold';
+        }
+        .benefits li{
+                line-height: 28px;
+    background: url(../../images/dot.svg) no-repeat left center;
+    background-size: 18px;
+    padding: 9px 0 7px 24px;
+            
+            
+        }
+
+        .benefits ul{
+                padding: 0;
+    margin: 10px 0 20px;
+    list-style: none;
+        }
+
+
+        .sub-service{
+            padding: 30px 0;
+
+        }
+
+        .sub-service h2{
+            text-transform: uppercase;
+            margin-bottom: 15px;    font-family: 'ProximaNova-Semibold';
+        }
+
+
+         @media screen and (max-width:1200px){
+            .service-intro{
+                max-width: 90%;
+                margin: auto
+            }
+
+             .text-box-wshadow{
+                      font-size: 20px;    line-height: 26px;
+             }
+             
+             .explore-hero h1{
+                 font-size: 60px;
+                 top:90px
+             }
+             
+             .explore-content p{
+                 font-size: 15px
+             }
+        }
+
+@media screen and (max-width:999px){
+    .explore-content{
+        position: relative
+    }
+
+        }
+
+        @media screen and (max-width:768px){
+            
+            .explore-hero h1{
+                font-size: 50px
+            }
+            
+            .explore-content p{
+                 font-size: 13px;
+                line-height: 20px
+             }
+        }
+
+        @media screen and (max-width:550px){
+            .service-intro{
+                max-width: 95%;
+
+            }
+            
+            .explore-hero{
+                height: auto
+            }
+            
+            .explore-content{
+             max-height: 300px
+            }
+            
+            .explore-hero h1{
+                font-size: 36px;
+                top:13%
+            }
+
+            .service-intro-content{
+                margin-right: 0;
+            }
+
+            .layout-content{
+                margin: 9% 0;
+            }
+
+            .service-list-box a{
+
+    padding: 115px 40px 30px;
+    background-size: 80px!important;
+    background-position: top 25px left 40px!important;
+            }
+
+            .text-box-wshadow{
+                    margin: -60px 40px 45px;
+            }
+
+            .bw-inner p{
+                margin-top: 25px;
+            }
+        }
+
+
+        @media screen  and (max-width:370px){
+            .service-list-box a{
+                margin: 50px 0
+            }
+        }

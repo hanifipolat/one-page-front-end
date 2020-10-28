@@ -1,0 +1,230 @@
+.blog-post{
+    padding: 4rem 0
+}
+
+
+.blog-content h1{
+    color: #6E7A91;
+}
+
+.blog-content{
+    font-size: 1.8rem;
+    color: #333;
+    line-height: 2.6rem;
+    max-width: 800px;
+    margin: auto
+}
+
+
+
+
+.blog-content img{
+    margin: 20px 0;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px
+}
+
+
+
+
+.blog-meta{
+    font-size: 1.6rem;
+    margin: 0 -10px 20px;
+    font-weight: 600;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+    color: #666;
+}
+
+
+
+
+.blog-meta span{
+    margin: 0 10px;
+}
+
+
+.featured-homes{
+    max-width: 340px;
+    margin: 14.5rem auto 3rem;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 15px rgba(0,0,0,.1)
+}
+
+
+.featured-homes h3{
+    font-weight: 200;
+    letter-spacing: 2px;
+    margin: 0 0 1rem
+}
+
+.featured-homes .pb-price{
+    font-size: 3rem
+}
+
+.featured-homes .property-box{
+    margin-bottom: 2rem;
+}
+
+.featured-homes .property-box a:before, .property-box a:after{
+    display: none!important
+}
+
+
+.featured-homes .property-box:hover{
+    background: #eee;
+}
+
+.related-blogs{
+    border-top: 1px solid #ddd;
+    padding: 4rem 0;
+    margin: 4rem 0;
+}
+
+.related-post{
+    background: #F4F4F4;
+    border-bottom: 3px solid #6D7993;
+    display: block;
+    margin-bottom: 2.4rem;
+    overflow: hidden
+}
+
+.related-post > img{
+        height: 280px;
+    width: auto;
+    max-width: initial;
+}
+
+
+.related-post span{
+        padding: 1rem 1rem 0;
+    font-size: 2rem;
+    display: block;
+    height: 105px;
+    color: #777;
+    font-weight: bold;
+    overflow: hidden
+}
+
+.related-post:hover span{
+    color: #222;
+
+}
+
+
+.related-post:hover{
+    border-bottom-color: #C6AB6D;
+    box-shadow: 0 0 10px rgba(0,0,0,.3)
+}
+
+
+.featured-homes .property-box-sm{
+    width: auto
+}
+
+
+.blogs{padding-bottom: 10rem;background: url(https://www.struttandparker.com/application/themes/rawnet/app/images/interface/patterned-bg.png);}
+
+
+.related-blogs h3{
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+    font-weight: 200;
+}
+
+.blog-categories a{ 
+    display: inline-block;
+    padding: 0 15px;
+    line-height: 4rem;
+    background: rgba(255,255,255,.7);
+    border: 1px solid #ccc;
+    font-size: 1.8rem;
+    color: #000;
+    margin: 10px 5px 10px 0;
+}
+
+
+.post-img{
+    width: 40%;
+    float:left
+}
+
+.post-info{
+    width: 60%;
+    float: left;
+
+    padding: 2.7rem 3rem 0;
+    font-size: 1.8rem
+
+}
+
+
+.post-row{
+    background: #f4f4f4;
+    margin: 6rem 0 0;
+    border: 2px solid #6E7A91;
+
+}
+
+.post-info h2{
+    margin: 0 0 1rem
+}
+
+
+
+.post-info a{
+    color: #333;
+}
+
+
+.post-info a:hover{
+    color: #d35400;
+}
+
+
+.read-more{
+    display: inline-block;
+    margin-top: .5rem;
+    background: #ddd;
+    padding: .5rem 2rem;
+    border-radius: 5px
+}
+
+.explore-hero {
+    max-height: 475px;
+    overflow: hidden
+}
+
+.explore-hero img {
+    width: 100%
+}
+
+.eb-xsmall {
+    padding: 25px 0 0;
+    height: 100px;
+    background: #ebdaae;
+}
+
+.eb-xsmall .eb-name {
+    border: 0
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

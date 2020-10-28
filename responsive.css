@@ -1,0 +1,1099 @@
+@media screen and (min-height: 900px) {
+    .homepage-html .homepage-intro {
+        max-height: 75%
+    }
+}
+
+/* Width */
+@media screen and (max-width: 1300px) {
+
+    .container-carousel {
+        width: 88%;
+        margin: auto
+    }
+
+    .container-carousel .owl-stage-outer {
+        margin: auto
+    }
+
+    .property-carousel .owl-nav .owl-prev {
+        left: -65px;
+    }
+
+    .property-carousel .owl-nav .owl-next {
+        right: -65px;
+    }
+
+    .property-carousel .owl-nav button {
+        width: 55px;
+        height: 55px;
+        box-shadow: none !important;
+        border: 1px solid #ccc !important
+    }
+
+    .property-carousel .owl-stage-outer:after {
+        display: none
+    }
+
+    .home-content .container, .search-results .container {
+        width: auto
+    }
+
+    .detail-sidebar {
+        margin: 0 0 0 -6px
+    }
+
+
+    .send-message {
+        background-size: 36px;
+        padding-left: 44px;
+    }
+
+}
+
+
+@media screen and (max-width: 1200px) {
+
+    .container-carousel {
+        width: 98%;
+        margin-left: 2%;
+    }
+
+    .property-carousel .owl-nav .owl-prev {
+        left: 1%;
+    }
+
+    .property-carousel .owl-nav .owl-next {
+        right: 1%;
+    }
+
+    .owl-nav {
+        display: none;
+        z-index: 9999
+    }
+
+    .owl-stage-outer:hover + .owl-nav, .owl-nav:hover {
+        display: block
+    }
+
+    .detail-sidebar {
+        max-width: 320px;
+        margin: auto
+    }
+
+
+    .home-tab .tab-header div {
+        margin: 0;
+        font-size: 2rem
+    }
+
+
+    .property-price {
+        margin-bottom: 20px;
+    }
+
+
+    .fixed-form .form-container {
+        margin-top: 20px;
+    }
+
+
+    .post-info {
+        padding: 2rem 2rem 0 2rem;
+        font-size: 1.6rem
+    }
+
+    .post-info h2 {
+        font-size: 2.7rem
+    }
+
+
+}
+
+
+@media screen and (max-width: 1100px) {
+
+
+    html {
+        font-size: 9.2px
+    }
+
+
+    .logo, .homepage-logo {
+        background-size: auto 27px;
+    }
+
+    .header-menu > ul > li > a {
+        padding: 0 2.6rem;
+    }
+
+
+    .home-headline h1 {
+        font-size: 3rem;
+        line-height: 4rem
+    }
+
+
+    .fb-position {
+        left: 6.3rem;
+        font-size: 1.4rem;
+        font-weight: 400;
+        color: #444;
+    }
+
+    .august-select select {
+        font-size: 2rem;
+        line-height: 2rem;
+        background-size: 12px;
+        max-width: 150px;
+        padding: 2.7rem 2.7rem 1rem 1rem;
+    }
+
+
+    .multi-select select {
+        padding: 2.7rem 9rem 1rem 2rem;
+        min-width: 161px
+    }
+
+    .august-select:before {
+        display: none
+    }
+
+    .fb-position {
+        left: 1.3rem
+    }
+
+
+}
+
+
+@media screen and (max-width: 1040px) {
+    .footer-section {
+        padding: 5rem 0 3rem 3rem;
+        min-height: 310px
+    }
+
+    .saved-properties {
+        width: 40%
+    }
+
+
+    .footer-section a{
+        padding: 7px 0
+    }
+    .pf-status {
+        width: 24%;
+        padding-left: 2.5%;
+    }
+
+    .pf-type, .pf-location {
+        width: 29%
+    }
+
+    .pf-btn {
+        width: 18%
+    }
+
+    .property-form {
+        height: 70px;
+        line-height: 70px
+    }
+
+    #pf-buy-rent + label {
+        top: 32px
+    }
+
+    .property-form {
+        margin: 10px auto;
+        max-width: 95%
+    }
+
+
+    .page-intro {
+        max-height: 280px
+    }
+
+    .page-content {
+        padding: 1rem 0 6rem
+    }
+
+    .intro-content {
+        padding: 0
+    }
+
+
+    .select-topbar select {
+        margin: 2px 6px
+    }
+
+    .select-topbar select:hover {
+        transform: scale(1)
+    }
+
+}
+
+
+@media screen and (max-width: 991px) {
+    .pb-large{
+        max-width: 450px;
+    margin: 0 auto 25px;
+    }
+    .social-links > a{width:42px;height:42px}
+    .project-links {
+    margin-top: 10px;
+    text-align: center;
+}
+    .projects .headline{
+        text-align: center;
+    }
+    .august-select select {
+        padding: 2.7rem 3.6rem 1rem 1rem;
+    }
+    .vertical-align-center{
+        display: flex!important;
+        align-items: center;
+    }
+    .footer-text .pull-left,.footer-text .pull-right{
+            width: 100%;
+    float: none!important;
+    text-align: center;
+
+    }
+    .margin-setting{
+        margin-top: 0!important;
+    }
+
+    .footer-text .pull-right{
+        margin: 20px 0 0;
+    }
+
+    html {
+        padding: 100px 0 0;
+    }
+
+    .explore .container {
+        max-width: 650px;
+        margin: auto
+    }
+
+    .home-tab{
+        margin-top: 25px;
+    }
+
+    .header {
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        background: #fff;
+        text-align: center;
+        z-index: 9999
+    }
+
+    .filter-search {
+        padding-top: 21px;
+    }
+
+
+    .default-header .header-menu .horizontal-menu > li > a {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .homepage-header .topbar {
+        display: block
+    }
+
+    .default-header .header-menu > ul > li:nth-last-child(1) > a {
+        padding-right: 2.7rem;
+    }
+
+    .homepage-logo, .logo {
+        background-image: url('../../images/logo2.png');
+
+    }
+
+    .horizontal-menu > li {
+        float: none;
+        display: inline-block
+    }
+
+    .logo, .homepage-logo {
+        width: 100%
+
+    }
+
+    html {
+        font-size: 8.7px
+    }
+
+    .header-menu > ul > li > a {
+        color: #222;
+        font-size: 2.1rem;
+        line-height: 6rem;
+
+    }
+
+    .header-menu .dropdown-menu > a {
+        background: url(../../images/menu_arrow222.png) no-repeat right 17px top 20px !important;
+        background-size: 12px !important;
+    }
+
+    .header-menu .pull-right {
+        float: left !important
+    }
+
+    .header-menu > ul > li:nth-child(1) a {
+        padding-left: 0;
+    }
+
+
+    .dropdown-menu:hover .submenu {
+        text-align: left;
+        top: 43px;
+    }
+
+
+    .pf-radio-box {
+        width: 33%;
+        margin: 0 1%
+    }
+
+    input#pf-buy-rent:not(:checked) + label:after {
+        left: 66%;
+    }
+
+
+    .header .logo, .homepage-logo {
+        margin: -25px 0 0;
+        position: relative;
+        z-index: 99;
+    }
+
+    .default-header .header-menu {
+        margin: inherit;
+    }
+
+
+    .footer-section {
+        padding: 4rem 0;
+        border: 0
+    }
+
+
+
+    .page-intro h1 {
+        font-size: 5rem
+    }
+
+    .intro-content, .intro-img {
+        max-width: 75%;
+        margin: auto;
+        float: none !important;
+        padding: 1rem 0
+    }
+
+
+    .letting-experts {
+        margin: 25px auto 0;
+        float: none !important
+    }
+
+    .expert-list img {
+        width: 30%
+    }
+
+    .expert-info {
+        width: 66%
+    }
+
+
+    .topbar {
+        background: transparent;
+        border: 0
+    }
+
+
+    .gradient-intro:after {
+        display: none
+    }
+
+
+    .featured-homes {
+        max-width: 100%;
+        margin: 3rem 0
+    }
+
+    .blog-content {
+        font-size: 2.3rem;
+        line-height: 3rem
+    }
+
+    .blog-content h1 {
+        font-size: 3.8rem
+    }
+
+
+    .post-img, .post-info {
+        width: 100%
+    }
+
+    .post-info {
+        padding: 2rem
+    }
+
+    .blog-categories a {
+        padding: 0 1rem;
+        margin: .4rem .2rem
+    }
+
+
+    .select-currency {
+        border: 0
+    }
+
+
+    .multi-select select {
+        min-width: 152px;
+    }
+
+
+    .submenu-container {
+        padding: 25px 0 30px 10px;
+        text-align: LEFT;
+        border: 0
+    }
+
+
+    .default-header .magazine-submenu {
+        padding-left: 20px;
+    }
+
+
+    .read-magazine img {
+        width: 125px
+    }
+
+.default-header .saved-btn {
+    margin-top: -25px;
+    right: 10px;
+}
+
+    .filter-box{
+        margin-right: 10px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+
+    .other-filters .pf-status{
+        position: relative;
+    margin-top: 0;
+    width: 100%;
+    margin-bottom: 20px;
+}
+    .mobile-horizontal-alignment{
+        display: flex;
+        justify-content: center;
+    }
+    .mobile-contact-icon{
+        text-align: center;
+    }
+    .similar-homes{margin-top: 0;}
+
+    html {
+        font-size: 7.7px
+    }
+
+    .saved-properties {
+        width: 80%
+    }
+
+    .before-results {
+        padding: 20px 0;
+    }
+
+    .search-results {
+        padding: 0 0 40px;
+    }
+
+    .home-features .pb-features.pull-left {
+        float: none !important;
+        width: 100%
+    }
+
+    .home-features {
+        background: rgba(244, 244, 244, 1);
+    }
+
+    .home-tab .tab-header div:before {
+        top: 2px;
+        left: 0
+    }
+
+    .home-tab .tab-header div {
+        margin: 0 0 10px;
+        padding: 0 1rem 0 35px;
+    }
+
+
+    .explore-box {
+        max-width: 330px;
+        margin: 0 auto 15px;
+        height: 200px
+    }
+
+    .topbar {
+        background: #f9f9f9;
+    }
+
+    .filter-search {
+        display: none
+    }
+
+    .filter-search.expand-filters {
+        display: block
+    }
+
+    .dropdown-menu:hover .submenu {
+        position: inherit;
+        top: 0;
+        width: 100%;
+        padding: 0;
+        box-shadow: none;
+        left: 0
+    }
+
+    .submenu a:before {
+        left: 40px;
+        top: 11px;
+    }
+
+    .header-menu .submenu a {
+    padding-left: 55px;
+    font-size: 2.4rem!important;
+    }
+
+    .homepage-logo, .logo {
+        background-position: left center;
+    }
+
+    .select-topbar select {
+        height: 35px;
+        color: #777;
+        margin: 0
+    }
+
+    .mobile-menu {
+        width: 50px;
+        height: 50px;
+        background: url('../../images/menu_black.png') no-repeat center;
+        background-size: 40px;
+        margin: 7px 0;
+    }
+
+    .mobile-btn-active {
+        background: url(../../images/close.png) #444 center no-repeat;
+        background-size: 18px !important;
+    }
+
+    .header-menu {
+        position: fixed;
+        top: 89px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #eee;
+        display: none;
+
+        max-height: 85%;
+        overflow: hidden;
+        overflow-y: scroll;
+        text-align: left;
+    }
+
+    .header-menu li {
+        display: block
+    }
+
+    .header-menu a {
+        display: block;
+        border-bottom: 1px solid #ddd;
+        line-height: 6rem !important;
+        font-size: 2.5rem !important
+
+    }
+
+    .header-menu ul {
+        display: block
+    }
+
+
+    .homepage-html .homepage-intro {
+        max-height: 500px
+    }
+
+    .homepage-position {
+        left: 10px;
+        right: 10px;
+        top: 30%
+    }
+
+    .pf-radio-box {
+        display: none !important
+    }
+
+
+    .pf-type, .pf-location {
+        width: 40%
+    }
+
+    .pf-btn {
+        width: 20%;
+    }
+
+    .property-form {
+        margin: 50px auto 0;
+        max-width: 620px
+    }
+
+    .pf-status {
+        width: auto;
+        position: absolute;
+        height: 40px;
+        line-height: 40px;
+        padding: 0;
+        margin-top: -40px;
+        background: #444;
+        border: 0 !important;
+        color: #ddd;
+    }
+
+    .pf-status > div {
+        padding: 0 20px
+    }
+
+
+    .pf-radio-active {
+        background: #f4f4f4;
+        color: #444;
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+
+    .project-box {
+        max-width: 400px;
+        margin: 20px auto
+    }
+
+    .projects .pull-left, .projects .pull-right {
+        float: none !important
+    }
+
+
+    .projects {
+        text-align: center;
+    }
+
+
+    .container-carousel {
+        width: 96%;
+        margin-left: 4%;
+    }
+
+    .pb-buttons-location{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .pb-features span {
+        font-size: 2rem;
+        background-size: 54px;
+        padding-top: 60px;
+        margin-bottom: 0;
+    }
+
+    .pb-features .pb-list {
+        font-size: 2rem
+    }
+
+    .owl-dot span {
+        width: 8px;
+        height: 8px
+    }
+
+    .owl-dots .owl-dot {
+        width: 15px;
+        height: 20px
+    }
+
+    .owl-dot.active span {
+        width: 9px;
+        height: 9px
+    }
+
+    .footer-section {
+        padding: 3rem 0 1rem;
+        min-height: auto
+    }
+
+    .footer-section a {
+        font-size: 1.8rem
+    }
+
+    .footer-settings h4, .about-us p {
+        font-size: 2rem
+    }
+
+    .footer-explore {
+        border-top: 1px solid #333;
+    }
+
+    .footer-services {
+        margin-left: -15px;
+    }
+
+
+    .intro-bg {
+        padding: 10rem 0
+    }
+
+    .header-menu .pull-right {
+        float: none !important
+    }
+
+    .header-menu > ul > li > a {
+        padding: 0 0 0 6% !important
+    }
+
+
+    .header .logo, .homepage-logo {
+        margin-top: 11px;
+    }
+
+
+    .expand-filters > .container > div {
+        margin-bottom: 15px;
+    }
+
+    .show-more-filter {
+        margin-top: 7px;
+    }
+
+    .explore {
+        text-align: center;
+    }
+
+    .large-submenu {
+        max-height: inherit;
+        position: inherit;
+        box-shadow: none
+    }
+
+    .submenu-container {
+        padding: 0 0 0 16px;
+
+    }
+
+    .advantages{
+        padding: 0
+    }
+}
+
+
+@media screen and (max-width: 560px) {
+.before-results {
+    padding: 0;
+}
+
+
+    .footer-logo{
+        display: block;
+    margin: 0 auto 10px;
+    }
+
+
+
+    .pb-features{margin-bottom: 0;}
+    .contact-person img{
+        width: 55px
+    }
+
+    .cp-label{
+            margin: 18px 0 0;
+    display: block;
+    }
+
+    .property-form select {
+        background-size: 14px;
+        background-position: right 15px center
+    }
+
+    .advantages li:before{
+            border-width: 7px 0 7px 7px;
+        top:10px
+    }
+
+    .key-features span{
+            background-size: 20px;
+    line-height: 30px;
+    padding: 0 0 0 29px;
+        width: 45%
+    }
+
+    .read-magazine{
+        line-height: 3rem!important;
+    font-size: 2.3rem!important;
+    padding: 15px 0;
+    border: 0;
+    }
+
+
+
+    .homepage-headline {
+        font-size: 4.3rem;
+        letter-spacing: 0
+    }
+
+    .pf-btn button {
+        text-indent: -9999em;
+        background-image: url(../../images/search.png);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .logo, .homepage-logo {
+        background-size: auto 24px;
+        width: 290px
+
+    }
+
+
+
+    .projects .headline {
+        margin-bottom: 0;
+    }
+
+    .intro-content, .intro-img {
+        max-width: 98%;
+        width: 90%
+    }
+
+    .page-intro {
+        max-height: inherit;
+        margin: 0
+    }
+
+    .letting .intro-content {
+        max-width: inherit
+    }
+
+    .wa-reason {
+        background-size: 50px !important;
+        background-position: top 20px center;
+        padding: 55px 10px 10px;
+        text-align: center;
+    }
+
+    .contact-box {
+        font-size: 2.5rem
+    }
+
+    .select-topbar select {
+        font-size: 1.6rem
+    }
+
+    .project-box, .expand-logo {
+        max-width: 300px
+    }
+
+    .homepage-html .homepage-intro {
+        max-height: 333px
+    }
+
+
+    .home-headline {
+        padding: 15px 0
+    }
+
+    .home-location {
+        margin-top: 1rem;
+    }
+
+    .home-city {
+        background-size: 10px;
+        padding-right: 21px;
+    }
+
+    .main-slider, .home-content .home-features{
+        margin: 0 -12px
+    }
+
+    #home-slider {
+        height: 410px
+    }
+
+    .rsDefault .rsThumb {
+        margin-right: 4px !important;
+    }
+
+    .property-carousel .owl-nav,.home-tab .tab-header div:before{
+        display: none !important
+    }
+
+
+    .home-tab .tab-header div{
+    padding: 0;
+    width: 24%;
+    text-align: center;
+    }
+
+    .home-tab .headline{
+        font-size: 20px
+    }
+
+
+
+    .search-results .property-box{
+        max-width: 100%!important;
+        width:100%!important;
+    }
+    .before-results .pull-right,.before-results .pull-left{float:none!important}
+.minimal-select{width: auto;
+    height: 34px;
+    margin-top: 10px;
+    font-size: 16px;
+    height: 35px;
+    padding-right: 30px;}
+    .before-results{
+        margin-bottom: 0;
+    }
+
+    .chart-legend-text{
+        margin-right: 10px;
+    }
+
+    .chart-container{margin:0 -18px}
+}
+
+
+@media screen and (max-width: 400px) {
+
+    .ft-right p{
+        display: block;
+        padding: 0;
+        border: 0
+    }
+
+    html {
+        padding: 89px 0 0;
+    }
+
+    .homepage-logo, .header .logo {
+        background-size: auto 22px;
+        margin-top: 9px;
+    }
+
+    .mobile-menu {
+        width: 40px;
+        height: 40px;
+        margin: 9px 0;
+        background-size: 30px;
+    }
+
+
+    .homepage-headline {
+        font-size: 3.5rem;
+        letter-spacing: 0
+    }
+
+    .property-form select {
+        padding: 0 1.7rem
+    }
+
+    .pf-status > div {
+        padding: 0 12px
+    }
+
+    .pf-type, .pf-location {
+        width: 43%
+    }
+
+    .pf-btn {
+        width: 14%;
+    }
+
+    .property-form {
+        height: 60px;
+        line-height: 60px
+    }
+
+    .property-form select {
+        background-size: 12px;
+        background-position: right 12px center;
+    }
+
+    .pf-btn button {
+        background-size: 22px;
+    }
+
+    .pb-image {
+        height: 190px
+    }
+
+    .save-btn {
+        top: 192px
+    }
+
+    .expand-logo {
+        width: 255px;
+    }
+
+    .close-filters, .close-sp {
+        width: 30px;
+        height: 30px;
+        margin: 9px;
+        background-size: 22px;
+    }
+
+
+    .saved-properties {
+        width: 95%
+    }
+
+
+
+    .select-topbar select {
+        height: 30px;
+    }
+
+    #home-slider {
+        height: 340px
+    }
+
+    .read-magazine img{
+        width: 100px
+    }
+}
+
+
+@media screen and (max-width: 335px) {
+    .homepage-logo, .header .logo {
+            background-size: auto 21px;
+    width: 255px;
+    }
+
+
+}
+
+.other-filters .pf-status{
+    line-height: 60px;
+    font-size: 20px;
+}
+
+@media screen and (min-width:767px){
+.before-results .headline-filter{
+    display: none
+}
+    }
