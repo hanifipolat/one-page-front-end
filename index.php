@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="tr">
 
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,11 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="https://kit.fontawesome.com/4d12206bd2.js" crossorigin="anonymous"></script>
 </head>
-
+<?php
+echo 1;
+echo 2;
+echo 3;
+?>
 <body>
     <div class="body">
         <div class="wrap">
