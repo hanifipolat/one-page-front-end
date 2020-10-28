@@ -234,6 +234,7 @@
 <script>
     console.log("1");
     console.log("2");
+    console.log("3");
 </script>
 <!-- Search Results -->
 <section class="search-results" style="padding: 20px 0 0" id="properties">
