@@ -231,7 +231,9 @@
 
 </style>
 
-
+<script>
+    console.log("1");
+</script>
 <!-- Search Results -->
 <section class="search-results" style="padding: 20px 0 0" id="properties">
     <div class="container">
